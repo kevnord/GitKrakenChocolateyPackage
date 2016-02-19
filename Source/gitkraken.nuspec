@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>gitkraken</id>
+    <title>GitKraken</title>
+    <version>0.7.0-beta</version>
+    <authors>axosoft</authors>
+    <owners>Kevin Nord</owners>
+    <summary>The intuitive, fast, and beautiful cross-platform Git client.</summary>
+    <description>The intuitive, fast, and beautiful cross-platform Git client</description>
+    <packageSourceUrl>https://github.com/kevnord/GitKrakenChocolateyPackage</packageSourceUrl>
+    <tags>git client gui</tags>
+    <licenseUrl>http://www.gitkraken.com/beta-agreement</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://blog.axosoft.com/wp-content/uploads/2015/10/gitkraken-social-icon.jpg</iconUrl>
+    <releaseNotes>http://www.gitkraken.com/release-notes</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
