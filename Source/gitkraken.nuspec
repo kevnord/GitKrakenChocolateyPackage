@@ -3,12 +3,13 @@
   <metadata>
     <id>gitkraken</id>
     <title>GitKraken</title>
-    <version>0.7.0-beta</version>
+    <version>0.7.0.1-beta</version>
     <authors>axosoft</authors>
     <owners>Kevin Nord</owners>
     <summary>The intuitive, fast, and beautiful cross-platform Git client.</summary>
     <description>The intuitive, fast, and beautiful cross-platform Git client</description>
     <packageSourceUrl>https://github.com/kevnord/GitKrakenChocolateyPackage</packageSourceUrl>
+    <projectUrl>http://www.gitkraken.com/</projectUrl>
     <tags>git client gui</tags>
     <licenseUrl>http://www.gitkraken.com/beta-agreement</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
