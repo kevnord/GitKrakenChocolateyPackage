@@ -3,7 +3,7 @@
 
 $packageName= 'GitKraken' # arbitrary name for the package, used in messages
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'http://release.gitkraken.com/win32/GitKrakenSetup.exe' # download url
+$url        = 'https://release.gitkraken.com/win32/GitKrakenSetup.exe' # download url
 $url64      = ''
 
 $packageArgs = @{
