@@ -8,7 +8,7 @@ $silentArgs = '/qn /norestart'
 # https://msdn.microsoft.com/en-us/library/aa376931(v=vs.85).aspx
 $validExitCodes = @(0, 3010, 1605, 1614, 1641)
 if ($installerType -ne 'MSI') {
-  $silentArgs = '/S'           # NSIS
+  $silentArgs = '--uninstall -s'  # Squirrel
   $validExitCodes = @(0)
 }
 

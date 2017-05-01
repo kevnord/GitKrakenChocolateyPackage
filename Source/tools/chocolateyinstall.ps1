@@ -13,7 +13,7 @@ $packageArgs = @{
   url           = $url
   url64bit      = $url64
 
-  silentArgs   = '/S'           # NSIS
+  silentArgs   = '-s'           # Squirrel
   validExitCodes= @(0) #please insert other valid exit codes here
 
   # optional, highly recommended
